@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License</title>
+    <!-- Include your CSS styles if needed -->
+</head>
+<body>
+    <header>
+        <!-- Your website header content, including navigation -->
+    </header>
+<nav>
+  
+</nav>
+    <main>
+        <h1>License Agreement</h1>
+        <p>This license agreement ("Agreement") is a legal agreement between you ("User" or "you") and [Your Company Name] ("Company" or "we" or "our"). By accessing or using this website, you agree to be bound by the terms and conditions of this Agreement. If you do not agree to these terms and conditions, please do not use this website.</p>
+
+        <h2>1. Copyright Notice</h2>
+        <p>All content on this website, including text, graphics, images, and other materials, is protected by copyright and owned by the Company unless otherwise indicated. Unauthorized use of any content on this website is strictly prohibited.</p>
+
+        <h2>2. Permitted Use</h2>
+        <p>You are granted a limited, non-exclusive, and non-transferable license to access and use this website for personal or non-commercial purposes only. You may not use this website for any unlawful or prohibited purpose.</p>
+
+        <h2>3. Disclaimers</h2>
+        <p>This website is provided "as is" and "as available" without any warranties or guarantees of any kind, express or implied. The Company makes no representations or warranties regarding the accuracy, completeness, or reliability of the content on this website.</p>
+
+        <h2>4. Limitation of Liability</h2>
+        <p>The Company shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from your use or inability to use this website or its content.</p>
+
+        <!-- Include additional sections and terms as needed -->
+
+        <h2>5. Contact Information</h2>
+        <p>If you have any questions or concerns regarding this Agreement, please contact us at [Your Contact Information].</p>
+    </main>
+
+    <footer>
+        <!-- Your website footer content -->
+    </footer>
+</body>
+</html>

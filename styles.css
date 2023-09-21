@@ -1,0 +1,274 @@
+/*TOP COLOR*/
+
+/* Reset default margin and padding for the body and HTML */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Create a container that covers the entire viewport width and is at the top of the screen */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* 100% of viewport height */
+}
+
+/* Style for the centered content (your banner) */
+.centered-content {
+  text-align: center; /* Center the text horizontally */
+  background-color: #d35512ea; /* Background color for the banner */
+  padding: 5px; /* Add padding for spacing */
+  border: 1px solid #ddd; /* Optional: Add a border */
+  width: 100%; /* Take up the full width of the viewport */
+  max-width: 100%; /* Ensure content doesn't exceed the viewport width */
+}
+
+/* Style for the centered link */
+.centered-link {
+  text-align: center; /* Center the text horizontally */
+  margin-top: 20px; /* Add margin to separate the link from the content */
+}
+
+-----------------------------------------------
+/* CENTER COLOR */
+
+/* Reset default margin and padding for the body and HTML */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Create a container that covers the entire viewport width and is at the top of the screen */
+.container1 {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* 100% of viewport height */
+}
+
+/* Style for the centered content (your banner) */
+.centered-content {
+  text-align: center; /* Center the text horizontally */
+  background-color: #d35512ea; /* Background color for the banner */
+  padding: 5px; /* Add padding for spacing */
+  border: 5px solid #ddd; /* Optional: Add a border */
+  width: 100%; /* Take up the full width of the viewport */
+  max-width: 100%; /* Ensure content doesn't exceed the viewport width */
+}
+
+/* Style for the centered link */
+.centered-link {
+  text-align: center; /* Center the text horizontally */
+  margin-top: 20px; /* Add margin to separate the link from the content */
+}
+
+
+---------------------------------------------------------------
+/* TOP BUTTONS *
+
+/* Define button styles */
+.primary-button {
+  background-color: #fff; /* White color */
+  color: #007bff; /* Blue text color */
+  border: 1px solid #007bff; /* Blue border */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.secondary-button {
+  background-color: #fff; /* White color */
+  color: #007bff; /* Blue text color */
+  border: 1px solid #007bff; /* Blue border */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Add hover effect */
+.primary-button:hover {
+  background-color: #e6f2ff; 
+}
+
+.secondary-button:hover {
+  background-color: #e6f2ff; /* Light blue on hover */
+}
+
+/*Categories--------------------------------------------------------------
+
+/* Style the dropdown button */
+/* Style the dropdown container */
+.dropdown {
+  position: relative; /* Create a positioning context for child elements */
+  display: inline-block; /* Display the dropdown and button inline */
+}
+
+/* Style the button */
+.secondary-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------*?
+
+/*DROPDOWN*/
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute; /* Position the dropdown relative to the container */
+  left: 0; /* Align the left edge of the dropdown with the left edge of the container */
+  top: 100%; /* Position the dropdown below the button */
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*-------------------------------------------------------------*/
+/* SEARCH BAR */
+
+/* Style the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the search input */
+#search-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the search button */
+#search-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 290px;
+  cursor: pointer;
+}
+
+
+/* LEARN MORE BUTTON */
+
+/* Style the custom button */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Style the link (anchor) inside the custom button */
+.custom-button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Change button styles on hover (optional) */
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+/*-------------------------------------------------- */
+/* SOCIALS */ 
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: auto;
+  padding: 20px 0;
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Use flexbox layout */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Make the list take up the full width of the footer */
+}
+
+.social-media-list li {
+  text-align: center; /* Center the content horizontally */
+  margin: 0; /* Remove any default margins */
+}
+
+.social-media-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-media-list img {
+  width: auto; /* Allow the images to retain their original width */
+  height: 30px; /* Set a fixed height for the icons */
+}
+
+/*-----------------------------------------------------*/
+/* Your existing CSS styles can go here */
+
+/* Style the header and navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Style the user links at the top right */
+.user-links {
+  display: flex;
+  gap: 20px;
+}
+
+.user-links a {
+  color: rgb(51, 44, 44);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style the links on hover (optional) */
+.user-links a:hover {
+  text-decoration: underline;
+}
+
+
+/*------------------------------------------------------------------------*/
+
